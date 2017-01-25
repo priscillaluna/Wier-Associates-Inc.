@@ -1,0 +1,732 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  text-align: center; }
+
+footer {
+  height: 296px;
+  background-color: #005499;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 60px 0 60px 0; }
+  footer .social-icon {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px; }
+  footer p {
+    margin-top: 30px; }
+  footer a {
+    text-decoration: none;
+    color: #fff; }
+
+.home-header,
+.other-header {
+  color: #fff;
+  height: 14vh;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: auto;
+  padding-top: 10px;
+  padding-right: 5%;
+  padding-left: 5%; }
+  @media screen and (min-width: 768px) {
+    .home-header,
+    .other-header {
+      display: flex;
+      padding-top: 30px; }
+      .home-header h1,
+      .other-header h1 {
+        margin: 0 0 0 20px;
+        width: 167px;
+        padding: 6px 0 6px 0; }
+      .home-header .phone,
+      .other-header .phone {
+        margin: 4px 0 0 1.5em; } }
+  @media screen and (min-width: 1040px) {
+    .home-header,
+    .other-header {
+      padding-left: 12%;
+      padding-right: 12%; } }
+  .home-header a,
+  .other-header a {
+    text-decoration: none;
+    color: #fff; }
+  .home-header .phone,
+  .other-header .phone {
+    margin-top: 4px;
+    margin-bottom: 4px; }
+  .home-header h1,
+  .other-header h1 {
+    font-size: 14px;
+    font-weight: 300; }
+
+.home-header nav,
+.other-header nav {
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .home-header nav,
+    .other-header nav {
+      width: 40%;
+      margin-left: auto; } }
+  @media screen and (min-width: 1040px) {
+    .home-header nav,
+    .other-header nav {
+      margin-left: 25%; } }
+  .home-header nav ul,
+  .other-header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+    padding: 3px 5% 3px 5%; }
+    @media screen and (min-width: 768px) {
+      .home-header nav ul,
+      .other-header nav ul {
+        padding: 6px 0 6px 0; } }
+  .home-header nav li,
+  .other-header nav li {
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 300; }
+
+.other-header {
+  background-color: #008CFF;
+  width: 100%;
+  height: 30%; }
+  @media screen and (min-width: 768px) {
+    .other-header {
+      height: 14vh; } }
+
+/* mobile view menu */
+.sectionOne {
+  display: inline-block;
+  height: 80%;
+  width: 100%;
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  @media screen and (min-width: 768px) {
+    .sectionOne {
+      display: flex; } }
+  .sectionOne h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ff2d00;
+    font-weight: 400; }
+  .sectionOne h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #008CFF; }
+  .sectionOne p {
+    font-weight: 300;
+    color: #333;
+    font-size: 14px; }
+  .sectionOne .mission,
+  .sectionOne .aboutUs {
+    font-family: "Source Sans Pro", sans-serif; }
+  .sectionOne .mission {
+    width: 100%;
+    padding-left: 15%; }
+    @media screen and (min-width: 768px) {
+      .sectionOne .mission {
+        width: 45%; } }
+  .sectionOne .aboutUs {
+    width: 100%;
+    padding-right: 8%;
+    padding-left: 15%;
+    padding-top: 20px; }
+    @media screen and (min-width: 768px) {
+      .sectionOne .aboutUs {
+        width: 48%;
+        padding-right: 5%;
+        padding-left: 2%;
+        padding-top: 0; } }
+
+.sectionTwo h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #008CFF;
+  font-weight: 400;
+  margin: 0; }
+.sectionTwo img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin: 0 30px 10px 30px; }
+.sectionTwo a {
+  text-decoration: none;
+  color: #008CFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px; }
+
+.aboutPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 60px auto; }
+
+.sectionThree h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #008CFF;
+  font-weight: 400;
+  margin: 0; }
+.sectionThree img {
+  margin: 60px auto;
+  width: 70%; }
+
+/* individual pages */
+.goBack {
+  padding-top: 24px;
+  text-align: left;
+  padding-left: 13%; }
+  .goBack a {
+    color: #008CFF;
+    text-decoration: none; }
+  .goBack span {
+    content: "\2190"; }
+  .goBack .back {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300; }
+
+.aboutUsPhoto {
+  padding-top: 44px; }
+  .aboutUsPhoto img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin: 0 30px 10px 30px; }
+  .aboutUsPhoto figcaption {
+    text-decoration: none;
+    color: #008CFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px; }
+
+.aboutUsInfo {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  padding: 0 13% 60px 13%;
+  line-height: 24px;
+  display: flex;
+  flex-flow: column-reverse; }
+  @media screen and (min-width: 768px) {
+    .aboutUsInfo {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between; } }
+  .aboutUsInfo aside {
+    padding-left: 20px; }
+  .aboutUsInfo ul {
+    color: #ff2d00;
+    -webkit-padding-start: 0;
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      .aboutUsInfo ul {
+        width: 220px;
+        text-align: left; } }
+  .aboutUsInfo li {
+    list-style: none;
+    color: #333; }
+  .aboutUsInfo p {
+    padding-left: 20px; }
+
+.careersTitle {
+  width: 100%;
+  height: 150px; }
+  @media screen and (min-width: 768px) {
+    .careersTitle {
+      height: 217px; } }
+  .careersTitle h1 {
+    font-size: 28px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #008CFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 57px;
+    padding-top: 50px;
+    margin: 0; }
+    @media screen and (min-width: 768px) {
+      .careersTitle h1 {
+        font-size: 48px;
+        padding-top: 80px; } }
+
+.careers {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  margin: 0 12% 60px 12%; }
+  .careers h2 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ff2d00;
+    text-transform: uppercase;
+    font-weight: 400; }
+    @media screen and (min-width: 768px) {
+      .careers h2 {
+        font-size: 24px; } }
+  .careers h3 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #008CFF;
+    font-weight: 400; }
+    @media screen and (min-width: 768px) {
+      .careers h3 {
+        font-size: 24px; } }
+  .careers a {
+    text-decoration: none;
+    color: #008CFF;
+    margin-bottom: 40px; }
+  .careers p,
+  .careers ul,
+  .careers span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333; }
+  .careers img {
+    height: 294px;
+    width: 300px; }
+    @media screen and (min-width: 768px) {
+      .careers img {
+        height: 374px;
+        width: 380px;
+        margin-left: 20px; } }
+  .careers .row1 {
+    margin-bottom: 20px; }
+    @media screen and (min-width: 768px) {
+      .careers .row1 {
+        display: flex; } }
+    .careers .row1 figure {
+      text-align: center;
+      margin: auto; }
+  .careers .row2 {
+    margin-bottom: 40px; }
+    @media screen and (min-width: 768px) {
+      .careers .row2 {
+        display: flex; } }
+    .careers .row2 figure {
+      text-align: center;
+      margin: 20px 0 0 0; }
+  .careers hr {
+    width: 90%;
+    color: #333;
+    margin: 40px 0; }
+
+.contactTitle {
+  width: 100%;
+  height: 150px; }
+  @media screen and (min-width: 768px) {
+    .contactTitle {
+      height: 217px; } }
+  .contactTitle h1 {
+    font-size: 28px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #008CFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 57px;
+    padding-top: 50px;
+    margin: 0; }
+    @media screen and (min-width: 768px) {
+      .contactTitle h1 {
+        font-size: 48px;
+        padding-top: 80px; } }
+
+.locationMaps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .locationMaps .headquarters,
+  .locationMaps .eastTexas {
+    margin: 0 20px 0 20px; }
+    .locationMaps .headquarters .info,
+    .locationMaps .eastTexas .info {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      line-height: 16px;
+      width: 350px;
+      height: 170px;
+      background-color: #f2f2f2;
+      text-align: left;
+      padding: 11px 0 20px 20px;
+      margin: 0 auto 80px auto; }
+      @media screen and (min-width: 768px) {
+        .locationMaps .headquarters .info,
+        .locationMaps .eastTexas .info {
+          width: 460px; } }
+    .locationMaps .headquarters h3,
+    .locationMaps .eastTexas h3 {
+      color: #008CFF;
+      font-weight: 400;
+      margin-bottom: 5px;
+      margin-top: 9px; }
+    .locationMaps .headquarters a,
+    .locationMaps .headquarters span,
+    .locationMaps .eastTexas a,
+    .locationMaps .eastTexas span {
+      color: #333;
+      text-decoration: none; }
+  .locationMaps h2 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #ff2d00;
+    text-transform: uppercase;
+    font-weight: 400; }
+  .locationMaps .map {
+    height: 261px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 50%;
+    overflow: hidden; }
+    .locationMaps .map iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important; }
+
+.home-main {
+  background: linear-gradient(rgba(74, 74, 74, 0.4), rgba(74, 74, 74, 0.4)), url("../images/fallbackbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh; }
+  @media screen and (min-width: 768px) {
+    .home-main {
+      height: 110vh; } }
+  .home-main .description {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    margin-top: 30vh; }
+    .home-main .description span {
+      padding-bottom: 10px; }
+    @media screen and (min-width: 768px) {
+      .home-main .description {
+        font-size: 24px;
+        flex-flow: row;
+        width: 80vw;
+        margin-top: 85vh; } }
+    @media screen and (min-width: 1040px) {
+      .home-main .description {
+        font-size: 28px;
+        width: 70vw; } }
+
+.contact {
+  height: 153px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 60px 0 60px 0;
+  background-color: #f2f2f2; }
+  .contact a {
+    text-decoration: none;
+    color: #008CFF; }
+  @media screen and (min-width: 768px) {
+    .contact {
+      font-size: 28px; } }
+
+/* main portfolio page */
+.projectTitle,
+.servicesProvided {
+  width: 100%;
+  height: 150px; }
+  @media screen and (min-width: 768px) {
+    .projectTitle,
+    .servicesProvided {
+      height: 217px; } }
+  .projectTitle h1,
+  .servicesProvided h1 {
+    font-size: 28px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #008CFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 57px;
+    padding-top: 50px;
+    margin: 0; }
+    @media screen and (min-width: 768px) {
+      .projectTitle h1,
+      .servicesProvided h1 {
+        font-size: 48px;
+        padding-top: 80px; } }
+
+main {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px; }
+
+.featuredProjects figcaption {
+  margin-top: 28px;
+  margin-bottom: 18px; }
+
+.featuredProjects,
+.pastProjects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .featuredProjects figure,
+  .pastProjects figure {
+    background-color: #f2f2f2;
+    color: #333;
+    height: 275px;
+    width: 300px; }
+  .featuredProjects .colorStrips,
+  .pastProjects .colorStrips {
+    display: flex; }
+  .featuredProjects hr,
+  .pastProjects hr {
+    height: 5px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    border-width: 0; }
+  .featuredProjects .blue,
+  .pastProjects .blue {
+    background-color: #008CFF; }
+  .featuredProjects .yellow,
+  .pastProjects .yellow {
+    background-color: #ffb500; }
+  .featuredProjects .red,
+  .pastProjects .red {
+    background-color: #ff2d00; }
+  .featuredProjects a,
+  .pastProjects a {
+    text-decoration: none; }
+
+.pastProjects {
+  margin-bottom: 44px; }
+  .pastProjects figcaption {
+    margin-top: 15px;
+    margin-bottom: 10px; }
+  .pastProjects span {
+    color: #008CFF; }
+  .pastProjects .comingSoon {
+    padding-top: 117.5px;
+    line-height: 25px; }
+
+/* individual portfolio pages */
+.projectInfo .projectPhoto-large {
+  margin: 0; }
+  .projectInfo .projectPhoto-large img {
+    width: 80%; }
+.projectInfo .projectPhoto-small {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto 20px auto 20px; }
+  .projectInfo .projectPhoto-small img {
+    margin-right: 10px;
+    margin-top: 5px; }
+.projectInfo ul {
+  margin: 40px 12% 0 12%; }
+.projectInfo li {
+  padding-bottom: 20px;
+  text-align: left; }
+
+.servicesProvided {
+  margin-bottom: 60px;
+  height: 10%; }
+  .servicesProvided h1 {
+    padding-top: 40px; }
+  .servicesProvided button {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #fff;
+    border: none;
+    width: 229px;
+    height: 75px;
+    border-radius: 3px;
+    margin-top: 40px;
+    cursor: pointer; }
+  .servicesProvided .buttonE {
+    background-color: #008CFF; }
+    @media screen and (min-width: 768px) {
+      .servicesProvided .buttonE {
+        margin-right: 20px; } }
+  .servicesProvided .buttonP {
+    background-color: #ffb500; }
+    @media screen and (min-width: 768px) {
+      .servicesProvided .buttonP {
+        margin-left: 20px; } }
+  .servicesProvided .buttonS {
+    background-color: #ff2d00; }
+
+.servicesTitle {
+  width: 100%;
+  height: 150px; }
+  @media screen and (min-width: 768px) {
+    .servicesTitle {
+      height: 217px; } }
+  .servicesTitle h1 {
+    font-size: 28px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #008CFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 57px;
+    margin: 0;
+    padding-top: 50px; }
+    @media screen and (min-width: 768px) {
+      .servicesTitle h1 {
+        font-size: 48px;
+        padding-top: 80px; } }
+
+.servicesList {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/servicesBG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 210%;
+  padding-top: 10px; }
+  @media screen and (min-width: 768px) {
+    .servicesList {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 120vh;
+      padding-top: 92px; } }
+  .servicesList h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+    @media screen and (min-width: 768px) {
+      .servicesList h2 {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 23px; } }
+  .servicesList ul {
+    -webkit-padding-start: 0;
+    margin-top: 0; }
+  .servicesList li {
+    list-style: none;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 26px; }
+    @media screen and (min-width: 768px) {
+      .servicesList li {
+        font-size: 14px; } }
+  .servicesList .engineeringLogo,
+  .servicesList .planningLogo,
+  .servicesList .surveyingLogo,
+  .servicesList .constructionLogo {
+    height: 100px;
+    width: 100px;
+    background-color: #f2f2f2;
+    border: 1px solid #979797; }
+  .servicesList .col1 {
+    display: none;
+    flex-direction: column;
+    padding-top: 4px; }
+    @media screen and (min-width: 1040px) {
+      .servicesList .col1 {
+        display: flex; } }
+  .servicesList .col2 {
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      .servicesList .col2 {
+        text-align: right; } }
+  .servicesList .col3 {
+    display: none;
+    width: 137.69px;
+    height: 55px;
+    padding-top: 300px; }
+    @media screen and (min-width: 1040px) {
+      .servicesList .col3 {
+        display: block; } }
+  .servicesList .col4 {
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      .servicesList .col4 {
+        text-align: left;
+        padding-left: 50px; } }
+    @media screen and (min-width: 1040px) {
+      .servicesList .col4 {
+        padding-left: 0; } }
+  .servicesList .col5 {
+    display: none;
+    padding-top: 4px; }
+    @media screen and (min-width: 1040px) {
+      .servicesList .col5 {
+        display: block;
+        padding-left: 20px; } }
+  .servicesList .planningLogo {
+    margin-top: 180px; }
+  .servicesList .constructionLogo {
+    margin-top: 390px; }
+
+.servicesDescription {
+  width: 76%;
+  margin: auto;
+  margin-bottom: 60px;
+  text-align: left; }
+  .servicesDescription .engineering,
+  .servicesDescription .planning,
+  .servicesDescription .surveying {
+    display: flex;
+    margin: 60px 0 40px 0; }
+  .servicesDescription .engineering {
+    color: #008CFF; }
+  .servicesDescription .planning {
+    color: #ffb500; }
+  .servicesDescription .surveying {
+    color: #ff2d00; }
+  .servicesDescription h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 33px;
+    font-weight: 400;
+    margin-left: 26px; }
+  .servicesDescription p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    line-height: 20px; }
+  .servicesDescription button {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    width: 229px;
+    height: 75px;
+    border-radius: 3px;
+    margin-top: 40px;
+    cursor: pointer; }
+  .servicesDescription .buttonE {
+    background-color: #008CFF; }
+  .servicesDescription .buttonP {
+    background-color: #ffb500; }
+  .servicesDescription .buttonS {
+    background-color: #ff2d00; }
+
+/*# sourceMappingURL=application.css.map */

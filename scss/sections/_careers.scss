@@ -1,0 +1,102 @@
+
+.careersTitle {
+  width: 100%;
+  height: 150px;
+    @media screen and (min-width: $brk-small) {
+      height: 217px;
+    }
+
+    h1 {
+      font-size: $font-larger;
+      font-family: $font-two;
+      color: $light-blue;
+      text-transform: uppercase;
+      font-weight: 400;
+      line-height: 57px;
+      padding-top: 50px;
+      margin: 0;
+        @media screen and (min-width: $brk-small) {
+          font-size: $font-largest;
+          padding-top: 80px;
+        }
+    }
+}
+
+.careers {
+  text-align: left;
+  font-family: $font-one;
+  margin: 0 12% 60px 12%;
+
+  h2 {
+    font-size: $font-medium;
+    line-height: 28px;
+    color: $red;
+    text-transform: uppercase;
+    font-weight: 400;
+      @media screen and (min-width: $brk-small) {
+        font-size: $font-large;
+      }
+  }
+
+  h3 {
+    font-size: $font-medium;
+    line-height: 28px;
+    color: $light-blue;
+    font-weight: 400;
+      @media screen and (min-width: $brk-small) {
+        font-size: $font-large;
+      }
+  }
+
+  a {
+    text-decoration: none;
+    color: $light-blue;
+    margin-bottom: 40px;
+  }
+
+  p,
+  ul,
+  span {
+    font-size: $font-small;
+    line-height: 16px;
+    color: $dark-grey;
+  }
+
+  img {
+    height: 294px;
+    width: 300px;
+      @media screen and (min-width: $brk-small) {
+        height: 374px;
+        width: 380px;
+        margin-left: 20px;
+      }
+  }
+
+  .row1 {
+    margin-bottom: 20px;
+      @media screen and (min-width: $brk-small) {
+        display: flex;
+      }
+      figure {
+        text-align: center;
+        margin: auto;
+      }
+  }
+
+  .row2 {
+    margin-bottom: 40px;
+      @media screen and (min-width: $brk-small) {
+        display: flex;
+      }
+      figure {
+        text-align: center;
+        margin: 20px 0 0 0;
+      }
+  }
+
+    hr {
+      width: 90%;
+      color: $dark-grey;
+      margin: 40px 0;
+    }
+}

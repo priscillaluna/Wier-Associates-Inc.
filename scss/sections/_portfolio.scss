@@ -1,0 +1,182 @@
+
+/* main portfolio page */
+
+.projectTitle,
+.servicesProvided {
+  width: 100%;
+  height: 150px;
+      @media screen and (min-width: $brk-small) {
+        height: 217px;
+      }
+
+    h1 {
+      font-size: $font-larger;
+      font-family: $font-two;
+      color: $light-blue;
+      text-transform: uppercase;
+      font-weight: 400;
+      line-height: 57px;
+      padding-top: 50px;
+      margin: 0;
+        @media screen and (min-width: $brk-small) {
+          font-size: $font-largest;
+          padding-top: 80px;
+        }
+    }
+}
+
+main {
+
+  font-family: $font-two;
+  font-size: $font-smaller;
+  font-weight: 300;
+  line-height: 20px;
+
+}
+
+.featuredProjects {
+
+  figcaption {
+    margin-top: 28px;
+    margin-bottom: 18px;
+  }
+
+}
+
+.featuredProjects,
+.pastProjects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  figure {
+    background-color: $light-grey;
+    color: $dark-grey;
+    height: 275px;
+    width: 300px;
+  }
+
+  .colorStrips {
+    display: flex;
+  }
+
+  hr {
+   height: 5px;
+   -webkit-margin-before: 0;
+   -webkit-margin-after: 0;
+   border-width: 0;
+  }
+
+  .blue {
+    background-color: $light-blue;
+  }
+
+  .yellow {
+    background-color: $yellow;
+  }
+
+  .red {
+    background-color: $red;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+}
+
+.pastProjects {
+
+  margin-bottom: 44px;
+
+  figcaption {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+    span {
+      color: $light-blue;
+    }
+
+  .comingSoon {
+    padding-top: 117.5px;
+    line-height: 25px;
+  }
+
+}
+
+/* individual portfolio pages */
+
+.projectInfo {
+
+  .projectPhoto-large {
+    margin: 0;
+      img {
+        width: 80%;
+      }
+  }
+
+  .projectPhoto-small {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto 20px auto 20px;
+
+      img {
+        margin-right: 10px;
+        margin-top: 5px;
+      }
+  }
+
+  ul {
+    margin: 40px 12% 0 12%;
+  }
+
+  li {
+    padding-bottom: 20px;
+    text-align: left;
+  }
+}
+
+.servicesProvided {
+
+  margin-bottom: 60px;
+  height: 10%;
+
+  h1 {
+    padding-top: 40px;
+  }
+
+  button {
+    font-family: $font-two;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25px;
+    color: $white;
+    border: none;
+    width: 229px;
+    height: 75px;
+    border-radius: 3px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+
+  .buttonE {
+    background-color: $light-blue;
+      @media screen and (min-width: $brk-small) {
+        margin-right: 20px;
+      }
+  }
+
+  .buttonP {
+    background-color: $yellow;
+      @media screen and (min-width: $brk-small) {
+        margin-left: 20px;
+      }
+  }
+
+  .buttonS {
+    background-color: $red;
+  }
+
+}

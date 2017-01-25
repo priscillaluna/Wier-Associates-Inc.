@@ -1,0 +1,208 @@
+
+.servicesTitle {
+  width: 100%;
+  height: 150px;
+    @media screen and (min-width: $brk-small) {
+      height: 217px;
+    }
+    h1 {
+      font-size: $font-larger;
+      font-family: $font-two;
+      color: $light-blue;
+      text-transform: uppercase;
+      font-weight: 400;
+      line-height: 57px;
+      margin: 0;
+      padding-top: 50px;
+        @media screen and (min-width: $brk-small) {
+          font-size: $font-largest;
+          padding-top: 80px;
+        }
+    }
+}
+
+.servicesList {
+  background: linear-gradient(
+                     rgba(0,0,0, .5),
+                     rgba(0,0,0,.5)),
+                     url("../images/servicesBG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $white;
+  height: 210%;
+  padding-top: 10px;
+    @media screen and (min-width: $brk-small) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 120vh;
+      padding-top: 92px;
+    }
+    @media screen and (min-width: $brk-large) {
+
+    }
+
+    h2 {
+      font-family: $font-one;
+      font-size: $font-medium;
+      font-weight: bold;
+      line-height: 28px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+        @media screen and (min-width: $brk-small) {
+          font-size: $font-large;
+          margin-top: 0;
+          margin-bottom: 23px;
+        }
+    }
+
+  ul {
+    -webkit-padding-start: 0;
+    margin-top: 0;
+  }
+
+  li {
+    list-style: none;
+    font-family: $font-two;
+    font-size: $font-smallest;
+    font-weight: 300;
+    line-height: 26px;
+      @media screen and (min-width: $brk-small) {
+        font-size: $font-small;
+      }
+  }
+
+  .engineeringLogo,
+  .planningLogo,
+  .surveyingLogo,
+  .constructionLogo {
+    height: 100px;
+    width: 100px;
+    background-color: $light-grey;
+    border: 1px solid #979797;
+  }
+
+  .col1 {
+    display: none;
+    flex-direction: column;
+    padding-top: 4px;
+      @media screen and (min-width: $brk-large) {
+        display: flex;
+      }
+  }
+
+  .col2 {
+    text-align: center;
+      @media screen and (min-width: $brk-small) {
+      text-align: right;
+    }
+  }
+
+  .col3 {
+    display: none;
+    width: 137.69px;
+    height: 55px;
+    padding-top: 300px;
+      @media screen and (min-width: $brk-large) {
+        display: block;
+      }
+  }
+
+  .col4 {
+    text-align: center;
+      @media screen and (min-width: $brk-small) {
+        text-align: left;
+        padding-left: 50px;
+      }
+      @media screen and (min-width: $brk-large) {
+        padding-left: 0;
+      }
+  }
+
+  .col5 {
+    display: none;
+    padding-top: 4px;
+      @media screen and (min-width: $brk-large) {
+        display: block;
+        padding-left: 20px;
+      }
+  }
+
+  .planningLogo {
+    margin-top: 180px;
+  }
+
+  .constructionLogo {
+    margin-top: 390px;
+  }
+
+}
+
+.servicesDescription {
+    width: 76%;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: left;
+
+    .engineering,
+    .planning,
+    .surveying {
+      display: flex;
+      margin: 60px 0 40px 0;
+    }
+
+    .engineering {
+      color: $light-blue;
+    }
+
+    .planning {
+      color: $yellow;
+    }
+
+    .surveying {
+      color: $red;
+    }
+
+    h2 {
+      font-family: $font-one;
+      font-size: $font-larger;
+      text-transform: uppercase;
+      line-height: 33px;
+      font-weight: 400;
+      margin-left: 26px;
+    }
+
+    p {
+      font-family: $font-two;
+      font-size: $font-smaller;
+      line-height: 20px;
+    }
+
+    button {
+      font-family: $font-two;
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 25px;
+      color: $white;
+      text-transform: uppercase;
+      border: none;
+      width: 229px;
+      height: 75px;
+      border-radius: 3px;
+      margin-top: 40px;
+      cursor: pointer;
+    }
+
+    .buttonE {
+      background-color: $light-blue;
+    }
+
+    .buttonP {
+      background-color: $yellow;
+    }
+
+    .buttonS {
+      background-color: $red;
+    }
+
+}

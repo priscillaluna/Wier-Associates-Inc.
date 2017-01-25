@@ -1,0 +1,201 @@
+
+.sectionOne {
+  display: inline-block;
+  height: 80%;
+  width: 100%;
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+    @media screen and (min-width: $brk-small) {
+      display: flex;
+    }
+
+  h1 {
+    font-family: $font-one;
+    font-size: $font-large;
+    text-transform: uppercase;
+    color: $red;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-family: $font-two;
+    font-size: $font-medium;
+    text-transform: uppercase;
+    color: $light-blue;
+  }
+
+  p {
+    font-weight: 300;
+    color: $dark-grey;
+    font-size: $font-small;
+  }
+
+  .mission,
+  .aboutUs {
+    font-family: $font-two;
+  }
+
+  .mission {
+    width: 100%;
+    padding-left: 15%;
+      @media screen and (min-width: $brk-small) {
+        width: 45%;
+      }
+  }
+
+  .aboutUs {
+    width: 100%;
+    padding-right: 8%;
+    padding-left: 15%;
+    padding-top: 20px;
+      @media screen and (min-width: $brk-small) {
+        width: 48%;
+        padding-right: 5%;
+        padding-left: 2%;
+        padding-top: 0;
+      }
+  }
+}
+
+.sectionTwo {
+
+  h1 {
+    font-family: $font-two;
+    font-size: $font-largest;
+    text-transform: uppercase;
+    color: $light-blue;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin: 0 30px 10px 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $light-blue;
+    font-family: $font-one;
+    font-size: $font-small;
+    font-weight: 300;
+    line-height: 25px;
+  }
+}
+
+.aboutPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 60px auto;
+}
+
+.sectionThree {
+
+  h1 {
+    font-family: $font-two;
+    font-size: $font-largest;
+    text-transform: uppercase;
+    color: $light-blue;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  img {
+    margin: 60px auto;
+    width: 70%;
+  }
+
+}
+
+/* individual pages */
+
+.goBack {
+  padding-top: 24px;
+  text-align: left;
+  padding-left: 13%;
+
+  a {
+    color: $light-blue;
+    text-decoration: none;
+  }
+
+  span {
+    content: "\2190";
+  }
+
+  .back {
+    font-family: $font-one;
+    font-size: $font-small;
+    font-weight: 300;
+  }
+
+}
+
+.aboutUsPhoto {
+  padding-top: 44px;
+
+  img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin: 0 30px 10px 30px;
+  }
+
+  figcaption {
+    text-decoration: none;
+    color: $light-blue;
+    font-family: $font-one;
+    font-size: $font-small;
+    font-weight: 300;
+    line-height: 25px;
+  }
+}
+
+.aboutUsInfo {
+
+  color: $dark-grey;
+  font-family: $font-one;
+  font-size: $font-small;
+  font-weight: 300;
+  text-align: left;
+  padding: 0 13% 60px 13%;
+  line-height: 24px;
+  display: flex;
+  flex-flow: column-reverse;
+
+    @media screen and (min-width: $brk-small) {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+    }
+
+  aside {
+    padding-left: 20px;
+  }
+
+  ul {
+    color: $red;
+    -webkit-padding-start: 0;
+    text-align: center;
+
+      @media screen and (min-width: $brk-small) {
+        width: 220px;
+        text-align: left;
+      }
+  }
+
+  li {
+    list-style: none;
+    color: $dark-grey;
+  }
+
+  p {
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="38px" height="48px" viewBox="0 0 38 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Surveyor Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.3943662,0.565376425 C10.3943662,0.253127647 10.645695,0 10.9537833,0 L25.0462167,0 C25.3551742,0 25.6056338,0.257993305 25.6056338,0.565376425 L25.6056338,15.8593548 C25.6056338,16.1716035 25.354305,16.4247312 25.0462167,16.4247312 L10.9537833,16.4247312 C10.6448258,16.4247312 10.3943662,16.1667379 10.3943662,15.8593548 L10.3943662,0.565376425 Z M13.4366197,2.45957644 C13.4366197,2.14384834 13.6807385,1.88790014 14.0075395,1.88790014 L21.9924605,1.88790014 C22.3077708,1.88790014 22.5633803,2.1303462 22.5633803,2.45957644 L22.5633803,3.581704 C22.5633803,3.8974321 22.3192615,4.1533803 21.9924605,4.1533803 L14.0075395,4.1533803 C13.6922292,4.1533803 13.4366197,3.91093424 13.4366197,3.581704 L13.4366197,2.45957644 Z M18.1663732,11.1582159 C19.2033656,11.1582159 20.0440141,10.3235398 20.0440141,9.29391453 C20.0440141,8.26428931 19.2033656,7.42961315 18.1663732,7.42961315 C17.1293808,7.42961315 16.2887324,8.26428931 16.2887324,9.29391453 C16.2887324,10.3235398 17.1293808,11.1582159 18.1663732,11.1582159 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.2112676" height="16.4247312" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-259.000000, -2074.000000)" id="Land-Surveyors" stroke="#FF2D00">
+            <g transform="translate(260.000000, 2065.000000)">
+                <g id="Group-3">
+                    <g id="Surveyor-Icon" transform="translate(0.000000, 9.000000)">
+                        <path d="M0,46.6209677 L17.8732394,16.4247312" id="Path-42" stroke-width="0.5" stroke-linecap="round"></path>
+                        <path d="M18,47 L18,16.4247312" id="Path-43" stroke-width="0.5" stroke-linecap="round"></path>
+                        <path d="M18.1267606,46.6209677 L36,16.4247312" id="Path-42" stroke-width="0.5" stroke-linecap="round" transform="translate(27.063380, 31.522849) scale(-1, 1) translate(-27.063380, -31.522849) "></path>
+                        <use id="Rectangle-79" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

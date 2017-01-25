@@ -1,0 +1,62 @@
+
+.home-main {
+  background: linear-gradient(
+                     rgba(74,74,74, .4),
+                     rgba(74,74,74, .4)),
+                     url("../images/fallbackbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+
+    @media screen and (min-width: $brk-small) {
+      height: 110vh;
+    }
+
+  .description {
+    color: $white;
+    font-family: $font-one;
+    font-size: $font-medium;
+    text-transform: uppercase;
+    font-weight: 300;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    margin-top: 30vh;
+
+      span {
+        padding-bottom: 10px;
+      }
+
+      @media screen and (min-width: $brk-small) {
+        font-size: $font-large;
+        flex-flow: row;
+        width: 80vw;
+        margin-top: 85vh;
+      }
+
+      @media screen and (min-width: $brk-large) {
+        font-size: $font-larger;
+        width: 70vw;
+      }
+  }
+}
+
+.contact {
+  height: 153px;
+  width: 100%;
+  font-family: $font-one;
+  font-size: $font-medium;
+  text-transform: uppercase;
+  padding: 60px 0 60px 0;
+  background-color: $light-grey;
+
+    a {
+    text-decoration: none;
+    color: $light-blue;
+  }
+
+  @media screen and (min-width: $brk-small) {
+    font-size: $font-larger;
+  }
+}
