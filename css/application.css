@@ -32,6 +32,10 @@ footer {
   padding-top: 10px;
   padding-right: 5%;
   padding-left: 5%; }
+  .home-header .WAlogo img,
+  .other-header .WAlogo img {
+    width: 88px;
+    height: 35px; }
   @media screen and (min-width: 768px) {
     .home-header,
     .other-header {
@@ -658,6 +662,9 @@ main {
     width: 137.69px;
     height: 55px;
     padding-top: 300px; }
+    .servicesList .col3 img {
+      width: 88px;
+      height: 35px; }
     @media screen and (min-width: 1040px) {
       .servicesList .col3 {
         display: block; } }
