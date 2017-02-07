@@ -28,6 +28,7 @@ footer {
   color: #fff;
   height: 14vh;
   font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
   margin: auto;
   padding-top: 10px;
   padding-right: 5%;
@@ -105,7 +106,6 @@ footer {
     .other-header {
       height: 14vh; } }
 
-/* mobile view menu */
 .sectionOne {
   display: inline-block;
   height: 80%;
@@ -412,6 +412,32 @@ footer {
   @media screen and (min-width: 768px) {
     .home-main {
       height: 110vh; } }
+  .home-main .videoContainer {
+    display: none; }
+  @media screen and (min-width: 768px) {
+    .home-main {
+      background: linear-gradient(transparent, transparent); }
+      .home-main .home-header {
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 12%; }
+      .home-main .videoContainer {
+        display: block;
+        width: 100%; }
+      .home-main video#bgvid {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover; } }
   .home-main .description {
     color: #fff;
     font-family: "Roboto", sans-serif;
