@@ -556,7 +556,7 @@ main {
 .projectInfo .projectPhoto-large {
   margin: 0; }
   .projectInfo .projectPhoto-large img {
-    width: 80%; }
+    width: 60%; }
 .projectInfo .projectPhoto-small {
   display: flex;
   justify-content: center;
