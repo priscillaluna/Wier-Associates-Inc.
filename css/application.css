@@ -474,6 +474,7 @@ footer {
       font-size: 28px; } }
 
 /* main portfolio page */
+
 .projectTitle,
 .servicesProvided {
   width: 100%;
@@ -666,7 +667,13 @@ main {
     height: 100px;
     width: 100px;
     background-color: #f2f2f2;
-    border: 1px solid #979797; }
+    border: 1px solid #979797;}
+  .servicesList .engineeringLogo img,
+  .servicesList .planningLogo img,
+  .servicesList .surveyingLogo img,
+  .servicesList .constructionLogo img {
+    margin-top: 10px;
+  }
   .servicesList .col1 {
     display: none;
     flex-direction: column;
